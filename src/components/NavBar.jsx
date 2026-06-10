@@ -35,20 +35,20 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#AboutMe">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#Contact">
                 Contact
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">
                 Disabled
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

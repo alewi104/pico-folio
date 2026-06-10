@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import img1 from "./assets/paintbg.jpg";
+import img1 from "../assets/paintbg.jpg";
 
 function FeaturedProjs() {
   return (
@@ -15,7 +15,7 @@ function FeaturedProjs() {
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "center",
+          justifyContent: "space-evenly",
           margin: "10px",
         }}
       >

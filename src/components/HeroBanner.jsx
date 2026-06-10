@@ -1,4 +1,4 @@
-import heroImg from "./assets/computerbg.jpg";
+import heroImg from "../assets/computerbg.jpg";
 
 function HeroBanner() {
   return (

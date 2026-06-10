@@ -1,8 +1,8 @@
-import HeroBanner from "./HeroBanner";
-import NavBar from "./NavBar";
-import AboutMe from "./AboutMe";
-import FeaturedProjs from "./FeaturedProjs";
-import Contact from "./Contact";
+import HeroBanner from "./components/HeroBanner";
+import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
+import FeaturedProjs from "./components/FeaturedProjs";
+import Contact from "./components/Contact";
 
 function App() {
   return (

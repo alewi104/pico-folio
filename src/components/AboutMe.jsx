@@ -1,8 +1,9 @@
-import AboutImg from "./assets/jamfrog.jpg";
+import AboutImg from "../assets/jamfrog.jpg";
 
 function AboutMe() {
   return (
     <div
+      id="AboutMe"
       style={{
         backgroundColor: "pink",
       }}

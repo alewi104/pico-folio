@@ -1,5 +1,6 @@
 {
   "name": "pico-8-portfolio-site",
+  "homepage": "https://alewi104.github.io/pico-folio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.6",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.6"

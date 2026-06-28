@@ -22,10 +22,6 @@ function App() {
       <section>
         <AboutMe />
       </section>
-
-      <section>
-        <Contact />
-      </section>
     </div>
   );
 }

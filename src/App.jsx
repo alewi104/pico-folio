@@ -1,28 +1,18 @@
-import HeroBanner from "./components/HeroBanner";
-import NavBar from "./components/NavBar";
-import AboutMe from "./components/AboutMe";
-import FeaturedProjs from "./components/FeaturedProjs";
-import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div>
-      <section>
-        <NavBar />
-      </section>
-
-      <section>
-        <HeroBanner />
-      </section>
-
-      <section>
-        <FeaturedProjs />
-      </section>
-
-      <section>
-        <AboutMe />
-      </section>
-    </div>
+    <Router>
+      <Routes>
+        <Route path={import.meta.env.BASE_URL} element={<Home />} />
+        <Route
+          path={import.meta.env.BASE_URL + "/resume"}
+          element={<Resume />}
+        />
+      </Routes>
+    </Router>
   );
 }
 

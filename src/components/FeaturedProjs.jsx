@@ -1,9 +1,21 @@
 import ProjectCard from "./ProjectCard";
-import img1 from "../assets/paintbg.jpg";
+import ProjectData from "../assets/data/output.json";
+import img1 from "../assets/pathway.png";
 
 function FeaturedProjs() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundImage: `url(${img1})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        zIndex: 1,
+        position: "absolute",
+        left: 0,
+        width: "100%",
+        height: "300px",
+      }}
+    >
       <h2
         style={{
           textAlign: "center",
@@ -15,31 +27,21 @@ function FeaturedProjs() {
         style={{
           display: "flex",
           flexDirection: "row",
+          flexWrap: "wrap",
           justifyContent: "space-evenly",
           margin: "10px",
         }}
       >
-        <ProjectCard
-          title="BostonApartments.com Mobile App"
-          imgsrc={img1}
-          alt="bostonapartments.com logo"
-          text="An adaptation of bostonapartments.com as iOS/Android mobile application"
-          btntxt="View"
-        />
-        <ProjectCard
-          title="BostonApartments.com Mobile App"
-          imgsrc={img1}
-          alt="bostonapartments.com logo"
-          text="An adaptation of bostonapartments.com as iOS/Android mobile application"
-          btntxt="View"
-        />
-        <ProjectCard
-          title="BostonApartments.com Mobile App"
-          imgsrc={img1}
-          alt="bostonapartments.com logo"
-          text="An adaptation of bostonapartments.com as iOS/Android mobile application"
-          btntxt="View"
-        />
+        {ProjectData.map((project) => (
+          <ProjectCard
+            key={project.proj_id}
+            title={project.title}
+            text={project.description}
+            thumbnail={import.meta.env.BASE_URL + project.thumbnail}
+            //btntxt={project.}
+            // href={}
+          />
+        ))}
       </div>
     </div>
   );

@@ -1,0 +1,73 @@
+[
+    {
+        "proj_id":1,
+        "slug":"a",
+        "title":"a",
+        "thumbnail_alt":"a",
+        "description":"a",
+        "thumbnail":"\\images\\EPM_Phase1_Gantt (1).png",
+        "github_link":"a",
+        "demo_video":"a",
+        "problem":"a",
+        "solution":"a",
+        "lessons_learned":"a",
+        "architecture":"a",
+        "ready_for_publish":1,
+        "technologies":[
+
+        ],
+        "images":[
+            {
+                "img_id":1,
+                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\images\\random_tree.jpg",
+                "caption":"tree",
+                "display_order":0
+            }
+        ],
+        "documents":[
+            {
+                "doc_id":1,
+                "title":"pdf",
+                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\documents\\LewisA_HW#4.pdf",
+                "summary":"some pdf",
+                "display_order":0
+            }
+        ]
+    },
+    {
+        "proj_id":2,
+        "slug":"y",
+        "title":"y",
+        "thumbnail_alt":"y",
+        "description":"y",
+        "thumbnail":"y",
+        "github_link":"y",
+        "demo_video":"y",
+        "problem":"y",
+        "solution":"y",
+        "lessons_learned":"y",
+        "architecture":"y",
+        "ready_for_publish":1,
+        "technologies":[
+            "React",
+            "JavaScript"
+        ],
+        "images":[
+            {
+                "img_id":2,
+                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\images\\lambiocooler.gif",
+                "caption":"cult of the lamb",
+                "display_order":0
+            }
+        ],
+        "documents":[
+            {
+                "doc_id":2,
+                "title":"rando",
+                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\documents\\IoT Device API.pdf",
+                "summary":"A random file used as an example",
+                "display_order":0
+            }
+        ]
+    }
+]

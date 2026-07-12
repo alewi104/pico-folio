@@ -1,11 +1,11 @@
-import heroImg from "../assets/computerbg.jpg";
+import heroImg from "../assets/muushiBGlarge.GIF";
 
 function HeroBanner() {
   return (
     <div
       style={{
         width: "100%",
-        height: "400px",
+        height: "500px",
         overflow: "hidden",
       }}
     >
@@ -18,20 +18,20 @@ function HeroBanner() {
           position: "absolute",
           left: 0,
           width: "100%",
-          height: "400px",
+          height: "500px",
         }}
       >
         <div>
           <h1
             style={{
               padding: "20px",
-              textAlign: "right",
+              textAlign: "left",
               zIndex: 2,
               color: "white",
-              fontFamily: "cursive",
+              fontFamily: "fantasy",
             }}
           >
-            Hello World! I am so glad to meet you
+            It's too technical to go alone!
           </h1>
         </div>
       </div>

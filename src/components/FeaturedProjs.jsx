@@ -5,7 +5,6 @@ import img1 from "../assets/pathway.png";
 function FeaturedProjs() {
   return (
     <div
-      id="FeaturedProjects"
       style={{
         backgroundImage: `url(${img1})`,
         backgroundSize: "cover",

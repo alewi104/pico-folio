@@ -1,8 +1,8 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../assets/data/output.json";
 import img1 from "../assets/pathway.png";
 
-function FeaturedProjs() {
+function Projects() {
   return (
     <div
       style={{
@@ -10,11 +10,10 @@ function FeaturedProjs() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         zIndex: 1,
+        position: "absolute",
         left: 0,
         width: "100%",
-        height: "auto",
-        padding: "20px",
-        boxShadow: "0 0 15px 10px",
+        height: "100%",
       }}
     >
       <h2
@@ -22,7 +21,7 @@ function FeaturedProjs() {
           textAlign: "center",
         }}
       >
-        Featured Projects
+        My Projects
       </h2>
       <div
         style={{
@@ -38,7 +37,6 @@ function FeaturedProjs() {
             key={project.proj_id}
             title={project.title}
             text={project.description}
-            alt={project.thumbnail_alt}
             thumbnail={import.meta.env.BASE_URL + project.thumbnail}
             href={import.meta.env.BASE_URL + "/projects/" + project.slug}
           />
@@ -47,4 +45,4 @@ function FeaturedProjs() {
     </div>
   );
 }
-export default FeaturedProjs;
+export default Projects;

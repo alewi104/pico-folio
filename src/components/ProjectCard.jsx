@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import card from "react-bootstrap/Card";
 
-function ProjectCard({ title, thumbnail, text }) {
+function ProjectCard({ title, thumbnail, text, href, alt }) {
   return (
     <div
       className="card"
@@ -12,13 +12,11 @@ function ProjectCard({ title, thumbnail, text }) {
         padding: "12px",
       }}
     >
-      <img src={thumbnail} className="card-img-top" alt={title} />
+      <img src={thumbnail} className="card-img-top" alt={alt} />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
-        {/* <a href={href} className="btn btn-primary">
-          {btntxt}
-        </a> */}
+        <a href={href}>--&gt;</a>
       </div>
     </div>
   );

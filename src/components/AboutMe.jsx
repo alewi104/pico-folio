@@ -5,7 +5,9 @@ function AboutMe() {
     <div
       id="AboutMe"
       style={{
-        backgroundColor: "pink",
+        zIndex: 1,
+        height: "auto",
+        boxShadow: "0 0 15px 10px",
       }}
     >
       <h2>About Me</h2>

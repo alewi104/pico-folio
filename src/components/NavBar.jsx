@@ -25,12 +25,18 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href={import.meta.env.BASE_URL + "/projects"}
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href={import.meta.env.BASE_URL + "/resume"}
+              >
                 Resume
               </a>
             </li>

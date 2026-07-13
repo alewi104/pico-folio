@@ -6,7 +6,14 @@ import Contact from "../components/Contact";
 
 function Home() {
   return (
-    <div style={{ backgroundColor: "lightgreen" }}>
+    <div
+      style={{
+        backgroundColor: "lightgreen",
+        display: "flex",
+        flexDirection: "column",
+        gap: "50px",
+      }}
+    >
       <section>
         <NavBar />
       </section>
@@ -21,6 +28,10 @@ function Home() {
 
       <section>
         <AboutMe />
+      </section>
+
+      <section>
+        <Contact />
       </section>
     </div>
   );

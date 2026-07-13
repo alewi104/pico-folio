@@ -14,6 +14,7 @@ function HeroBanner() {
           backgroundImage: `url(${heroImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          boxShadow: "0 0 15px 10px",
           zIndex: 1,
           position: "absolute",
           left: 0,

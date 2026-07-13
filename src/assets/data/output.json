@@ -1,71 +1,44 @@
 [
     {
         "proj_id":1,
-        "slug":"a",
-        "title":"a",
-        "thumbnail_alt":"a",
-        "description":"a",
-        "thumbnail":"\\images\\EPM_Phase1_Gantt (1).png",
-        "github_link":"a",
-        "demo_video":"a",
-        "problem":"a",
-        "solution":"a",
-        "lessons_learned":"a",
-        "architecture":"a",
+        "slug":"ba-mobile",
+        "title":"BostonApartments.com Mobile App",
+        "thumbnail_alt":"bostonapartments.com logo",
+        "description":"A cross-platform mobile experience dedicated to helping tenants find properties all across Massachusetts.",
+        "thumbnail":"\\images\\BAIconSplashSmaller.png",
+        "github_link":"https:\/\/apps.apple.com\/us\/app\/bostonapartments-com\/id6761228148",
+        "demo_video":"https:\/\/youtu.be\/dBdrMddtX7o",
+        "problem":"Customers who utilize bostonapartments.com do not have a convienient way of taking the websites utility with them. There was also need for mobile presence in order to stand strong against competitors.",
+        "solution":"In using React\/React Native libraries, a mobile experience was created that puled apartment and property listings from a remote database. Every User is able to input their preferences and the app will provide custom listings for them everyday.",
+        "lessons_learned":"Experience with integrating legacy servers. API endpoint creation. Actively working through a disciplined SCRUM process to meet sponsor requirements.",
+        "architecture":"Client-Server",
         "ready_for_publish":1,
+        "featured":1,
         "technologies":[
-
+            "React Native",
+            "Expo",
+            "TypeScript"
         ],
         "images":[
             {
                 "img_id":1,
-                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\images\\random_tree.jpg",
-                "caption":"tree",
+                "filepath":"\\images\\innov_poster.png",
+                "caption":"Innovation Poster describing the details of the project",
                 "display_order":0
+            },
+            {
+                "img_id":2,
+                "filepath":"\\images\\Screenshot 2026-02-27 165343.png",
+                "caption":"Favorites functionality",
+                "display_order":1
             }
         ],
         "documents":[
             {
                 "doc_id":1,
-                "title":"pdf",
-                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\documents\\LewisA_HW#4.pdf",
-                "summary":"some pdf",
-                "display_order":0
-            }
-        ]
-    },
-    {
-        "proj_id":2,
-        "slug":"y",
-        "title":"y",
-        "thumbnail_alt":"y",
-        "description":"y",
-        "thumbnail":"y",
-        "github_link":"y",
-        "demo_video":"y",
-        "problem":"y",
-        "solution":"y",
-        "lessons_learned":"y",
-        "architecture":"y",
-        "ready_for_publish":1,
-        "technologies":[
-            "React",
-            "JavaScript"
-        ],
-        "images":[
-            {
-                "img_id":2,
-                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\images\\lambiocooler.gif",
-                "caption":"cult of the lamb",
-                "display_order":0
-            }
-        ],
-        "documents":[
-            {
-                "doc_id":2,
-                "title":"rando",
-                "filepath":"..\\Pico-8-Portfolio-Site\\src\\assets\\documents\\IoT Device API.pdf",
-                "summary":"A random file used as an example",
+                "title":"Wireframe Mockup",
+                "filepath":"\\documents\\wireframe mockups.pdf",
+                "summary":"The initial mockup for the flow of the app",
                 "display_order":0
             }
         ]

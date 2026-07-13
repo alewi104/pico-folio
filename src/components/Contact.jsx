@@ -1,6 +1,9 @@
 function Contact() {
   return (
-    <div id="Contact">
+    <div
+      id="Contact"
+      style={{ boxShadow: "0 0 15px 10px", textAlign: "center" }}
+    >
       <h2>Contact</h2>
       <div>
         <ul>

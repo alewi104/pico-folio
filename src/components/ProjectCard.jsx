@@ -1,24 +1,29 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import card from "react-bootstrap/Card";
+import "./ProjectCard.css";
 
-function ProjectCard({ title, thumbnail, text, href, alt }) {
+function ProjectCard({ title, thumbnail, text, href, alt, technologies }) {
   return (
-    <div
-      className="card"
-      style={{
-        width: "18rem",
-        backgroundColor: "rgba(253, 139, 244, 0.5)",
-        border: "1px solid",
-        padding: "12px",
-      }}
-    >
-      <img src={thumbnail} className="card-img-top" alt={alt} />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{text}</p>
-        <a href={href}>--&gt;</a>
+    <article className="project-card">
+      <img src={thumbnail} alt={alt} className="project-image" />
+
+      <div className="project-content">
+        <h3>{title}</h3>
+
+        <p>{text}</p>
+
+        <div className="tech-list">
+          {technologies?.map((tech) => (
+            <span key={tech} className="tech-pill">
+              {tech}
+            </span>
+          ))}
+        </div>
+
+        <a href={href} className="project-link">
+          View Project →
+        </a>
       </div>
-    </div>
+    </article>
   );
 }
+
 export default ProjectCard;

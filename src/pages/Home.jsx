@@ -6,14 +6,7 @@ import Contact from "../components/Contact";
 
 function Home() {
   return (
-    <div
-      style={{
-        backgroundColor: "lightgreen",
-        display: "flex",
-        flexDirection: "column",
-        gap: "50px",
-      }}
-    >
+    <div>
       <section>
         <NavBar />
       </section>

@@ -45,8 +45,8 @@ function NavBar() {
                 href: import.meta.env.BASE_URL + "projects",
               },
               { label: "Resume", href: import.meta.env.BASE_URL + "resume" },
-              { label: "About", href: "#AboutMe" },
-              { label: "Contact", href: "#Contact" },
+              { label: "About", href: import.meta.env.BASE_URL + "#AboutMe" },
+              { label: "Contact", href: import.meta.env.BASE_URL + "#Contact" },
             ].map((link) => (
               <li className="nav-item" key={link.label}>
                 <a

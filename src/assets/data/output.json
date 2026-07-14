@@ -152,5 +152,38 @@
                 "display_order":0
             }
         ]
+    },
+    {
+        "proj_id":4,
+        "slug":"pico-folio",
+        "title":"Portfolio Website",
+        "thumbnail_alt":"website hero banner image",
+        "description":"This website and it's documentation",
+        "thumbnail":"\\images\\muushiBGsmall.GIF",
+        "github_link":"https:\/\/github.com\/alewi104\/pico-folio",
+        "demo_video":"",
+        "problem":"",
+        "solution":"",
+        "lessons_learned":"",
+        "architecture":"",
+        "ready_for_publish":1,
+        "featured":0,
+        "technologies":[
+            "JavaScript",
+            "React",
+            "Vite"
+        ],
+        "images":[
+
+        ],
+        "documents":[
+            {
+                "doc_id":3,
+                "title":"Initial website mock-up",
+                "filepath":"\\documents\\IMG_0021.PNG",
+                "summary":"The inital mock-up for how the website would look and flow.",
+                "display_order":0
+            }
+        ]
     }
 ]

@@ -1,18 +1,76 @@
-# React + Vite
+# pico-folio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio site, built with React and deployed on GitHub Pages.
 
-Currently, two official plugins are available:
+**Live site:** [alewi104.github.io/pico-folio](https://alewi104.github.io/pico-folio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+pico-folio showcases my projects, resume, and background as a computer science student. It's a single-page application with client-side routing, built to be fast, responsive, and easy to extend as I add new work.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+- **Home** — landing page with an intro and quick links
+- **Projects** — a browsable list of projects, each with its own detail page
+- **Resume** — my resume, viewable directly on the site
+- **About / Contact** — in-page sections for background info and ways to reach me
+- Responsive navbar with a collapsible menu for mobile screens
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) — UI library
+- [Vite](https://vitejs.dev/) — build tool and dev server
+- [React Router](https://reactrouter.com/) — client-side routing
+- [Bootstrap](https://getbootstrap.com/) — base navbar and card styling
+- [GitHub Pages](https://pages.github.com/) — hosting
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/alewi104/pico-folio.git
+cd pico-folio
+npm install
+```
+
+### Development
+
+Run the local dev server:
+
+```bash
+npm run dev
+```
+
+The site will be available at `http://localhost:5173/pico-folio/` (or wherever Vite prints).
+
+### Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+### Deploy
+
+This project deploys to GitHub Pages. Once built, the `dist/` folder is published to the `gh-pages` branch (or your configured deploy workflow):
+
+```bash
+npm run deploy
+```
+
+> **Note:** Because this is a single-page app hosted on GitHub Pages (which has no server-side routing), direct navigation to routes like `/projects` is handled via a `404.html` redirect trick. See `public/404.html` and the restore script in `index.html` if you're modifying routing behavior.
+
+## Contact
+
+Feel free to reach out via the Contact section on the site, or find me on [GitHub](https://github.com/alewi104).
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).

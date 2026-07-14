@@ -1,11 +1,13 @@
+// HeroBanner.jsx
 import heroImg from "../assets/muushiBGlarge.GIF";
 
 function HeroBanner() {
   return (
     <div
       style={{
+        position: "relative",
         width: "100%",
-        height: "500px",
+        height: "520px",
         overflow: "hidden",
       }}
     >
@@ -14,27 +16,42 @@ function HeroBanner() {
           backgroundImage: `url(${heroImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          boxShadow: "0 0 15px 10px",
-          zIndex: 1,
-          position: "absolute",
-          left: 0,
           width: "100%",
-          height: "500px",
+          height: "100%",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "linear-gradient(180deg, rgba(46,27,82,0.15) 0%, rgba(46,27,82,0.75) 100%)",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          top: "40px",
+          left: "40px",
+          maxWidth: "560px",
+          padding: "20px 28px",
+          backgroundColor: "rgba(31,24,48,0.55)",
+          border: "3px solid var(--stand-pink)",
+          borderRadius: "18px",
+          boxShadow: "0 0 25px 4px var(--stand-pink)",
         }}
       >
-        <div>
-          <h1
-            style={{
-              padding: "20px",
-              textAlign: "left",
-              zIndex: 2,
-              color: "white",
-              fontFamily: "fantasy",
-            }}
-          >
-            It's too technical to go alone!
-          </h1>
-        </div>
+        <h1
+          style={{
+            margin: 0,
+            color: "#fff",
+            fontFamily: "var(--font-display)",
+            fontSize: "clamp(1.5rem, 4vw, 2.4rem)",
+            lineHeight: 1.3,
+          }}
+        >
+          It's too technical to go alone!
+        </h1>
       </div>
     </div>
   );

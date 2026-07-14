@@ -42,5 +42,42 @@
                 "display_order":0
             }
         ]
+    },
+    {
+        "proj_id":2,
+        "slug":"project-manager",
+        "title":"Portfolio Project Manager",
+        "thumbnail_alt":"Project Manager Main Menu",
+        "description":"A command-line interface application that accepts user input and exports persistent data to the desired project directory. Focuses on database management and data integrity.",
+        "thumbnail":"\\images\\portfolio_project_manager_main_menu.png",
+        "github_link":"https:\/\/github.com\/alewi104\/portfolio-project-manager",
+        "demo_video":"",
+        "problem":"I needed to be able to easily update my website without having to modify the project's code directly.",
+        "solution":"I developed an external python tool that collects and stores my project data. I can seamlessly transport that data to my portfolio site and utilize remote databases.",
+        "lessons_learned":"Database structuring. Input validation. Python data manipulation.",
+        "architecture":"client-server",
+        "ready_for_publish":1,
+        "featured":0,
+        "technologies":[
+            "Python",
+            "SQL"
+        ],
+        "images":[
+            {
+                "img_id":3,
+                "filepath":"\\images\\image_entry.png",
+                "caption":"Image Entry for a project.",
+                "display_order":0
+            },
+            {
+                "img_id":4,
+                "filepath":"\\images\\tech_entry.png",
+                "caption":"Technology entry for a project.",
+                "display_order":1
+            }
+        ],
+        "documents":[
+
+        ]
     }
 ]

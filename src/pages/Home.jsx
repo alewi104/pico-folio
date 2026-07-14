@@ -1,3 +1,5 @@
+// Home.jsx
+import "../styles/theme.css";
 import HeroBanner from "../components/HeroBanner";
 import NavBar from "../components/NavBar";
 import AboutMe from "../components/AboutMe";
@@ -8,28 +10,21 @@ function Home() {
   return (
     <div
       style={{
-        backgroundColor: "lightgreen",
+        backgroundColor: "var(--bg-green)",
         display: "flex",
         flexDirection: "column",
-        gap: "50px",
+        gap: "60px",
+        paddingBottom: "60px",
       }}
     >
       <section>
         <NavBar />
-      </section>
-
-      <section>
         <HeroBanner />
-      </section>
-
-      <section>
         <FeaturedProjs />
       </section>
-
       <section>
         <AboutMe />
       </section>
-
       <section>
         <Contact />
       </section>

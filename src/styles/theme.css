@@ -1,0 +1,29 @@
+/* src/styles/theme.css */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg-cream: #fbf6ef;
+  --bg-green: #3d8d0f;
+  --ink: #1f1830;
+  --stand-purple: #4b2e83;
+  --stand-purple-dark: #2e1b52;
+  --stand-pink: #ff5fa2;
+  --stand-gold: #ffc857;
+  --stand-green: #8fd9a8;
+  --font-display: "Bungee", system-ui, sans-serif;
+  --font-body: "Poppins", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+.aura {
+  border-radius: 24px;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}

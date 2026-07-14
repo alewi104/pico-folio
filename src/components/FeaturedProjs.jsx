@@ -54,7 +54,7 @@ function FeaturedProjs() {
               text={project.description}
               alt={project.thumbnail_alt}
               thumbnail={import.meta.env.BASE_URL + project.thumbnail}
-              href={import.meta.env.BASE_URL + "/projects/" + project.slug}
+              href={import.meta.env.BASE_URL + "projects/" + project.slug}
             />
           ))}
         </div>

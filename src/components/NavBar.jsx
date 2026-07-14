@@ -42,9 +42,9 @@ function NavBar() {
               { label: "Home", href: import.meta.env.BASE_URL },
               {
                 label: "Projects",
-                href: import.meta.env.BASE_URL + "/projects",
+                href: import.meta.env.BASE_URL + "projects",
               },
-              { label: "Resume", href: import.meta.env.BASE_URL + "/resume" },
+              { label: "Resume", href: import.meta.env.BASE_URL + "resume" },
               { label: "About", href: "#AboutMe" },
               { label: "Contact", href: "#Contact" },
             ].map((link) => (

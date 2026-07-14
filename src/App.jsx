@@ -10,15 +10,15 @@ function App() {
       <Routes>
         <Route path={import.meta.env.BASE_URL} element={<Home />} />
         <Route
-          path={import.meta.env.BASE_URL + "/resume"}
+          path={import.meta.env.BASE_URL + "resume"}
           element={<Resume />}
         />
         <Route
-          path={import.meta.env.BASE_URL + "/projects"}
+          path={import.meta.env.BASE_URL + "projects"}
           element={<Projects />}
         />
         <Route
-          path={import.meta.env.BASE_URL + "/projects/:slug"}
+          path={import.meta.env.BASE_URL + "projects/:slug"}
           element={<ProjectPage />}
         />
       </Routes>

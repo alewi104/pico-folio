@@ -79,5 +79,54 @@
         "documents":[
 
         ]
+    },
+    {
+        "proj_id":3,
+        "slug":"sundevil-connect",
+        "title":"ASU Sundevil Connect",
+        "thumbnail_alt":"asu logo",
+        "description":"A club\/event manager for ASU students, club leaders, and college admins.",
+        "thumbnail":"\\images\\asu-logo.png",
+        "github_link":"https:\/\/github.com\/alewi104\/ASU-Connect",
+        "demo_video":"https:\/\/youtu.be\/CY25Jgfw4FQ",
+        "problem":"Needed a revamp of the university's social linking and event management.",
+        "solution":"",
+        "lessons_learned":"",
+        "architecture":"",
+        "ready_for_publish":1,
+        "featured":1,
+        "technologies":[
+            "Java",
+            "SQL"
+        ],
+        "images":[
+            {
+                "img_id":5,
+                "filepath":"\\images\\Screenshot 2026-04-27 214314.png",
+                "caption":"welcome screen",
+                "display_order":0
+            },
+            {
+                "img_id":6,
+                "filepath":"\\images\\Screenshot 2026-04-27 214408.png",
+                "caption":"student panel",
+                "display_order":1
+            },
+            {
+                "img_id":7,
+                "filepath":"\\images\\Screenshot 2026-04-27 215140.png",
+                "caption":"club leader panel",
+                "display_order":2
+            },
+            {
+                "img_id":8,
+                "filepath":"\\images\\Screenshot 2026-04-27 220123.png",
+                "caption":"admin panel",
+                "display_order":3
+            }
+        ],
+        "documents":[
+
+        ]
     }
 ]

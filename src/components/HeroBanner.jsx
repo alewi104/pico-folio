@@ -50,8 +50,21 @@ function HeroBanner() {
             lineHeight: 1.3,
           }}
         >
-          It's too technical to go alone!
+          Ahlaireah Lewis - Software Engineer
         </h1>
+        <p
+          style={{
+            margin: "8px 0 0",
+            color: "rgba(255,255,255,0.85)",
+            fontFamily: "var(--font-body)",
+            fontSize: "clamp(0.9rem, 1.6vw, 1.1rem)",
+            fontWeight: 400,
+            letterSpacing: "0.3px",
+            lineHeight: 1.4,
+          }}
+        >
+          "It's too technical to go alone!"
+        </p>
       </div>
     </div>
   );

@@ -162,7 +162,7 @@ function ProjectPage() {
                         padding: "8px 16px",
                       }}
                     >
-                      <p style={{ margin: 0 }}>{img.caption}</p>
+                      <p style={{ margin: 0, color: "white" }}>{img.caption}</p>
                     </Carousel.Caption>
                   )}
                 </Carousel.Item>

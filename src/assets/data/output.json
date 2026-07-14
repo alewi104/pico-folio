@@ -123,10 +123,34 @@
                 "filepath":"\\images\\Screenshot 2026-04-27 220123.png",
                 "caption":"admin panel",
                 "display_order":3
+            },
+            {
+                "img_id":9,
+                "filepath":"\\images\\Phase4FinalClassDiagram.png",
+                "caption":"Class diagram of system",
+                "display_order":4
+            },
+            {
+                "img_id":10,
+                "filepath":"\\images\\Screenshot 2026-07-14 082138.png",
+                "caption":"System Context Diagram",
+                "display_order":5
+            },
+            {
+                "img_id":11,
+                "filepath":"\\images\\Screenshot 2026-07-14 082230.png",
+                "caption":"Deployment Diagram",
+                "display_order":6
             }
         ],
         "documents":[
-
+            {
+                "doc_id":2,
+                "title":"Component Diagram",
+                "filepath":"\\documents\\Untitled Diagram-Component Diagram.drawio.png",
+                "summary":"A visual depiction of the system's N-Layered architecture. Each container (layer) is broken into it's smaller functional components.",
+                "display_order":0
+            }
         ]
     }
 ]

@@ -4,23 +4,19 @@
     <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script>
-      var pathSegmentsToKeep = 1; // = number of segments in your repo name path, e.g. "pico-folio"
+      var pathSegmentsToKeep = 1;
       var l = window.location;
+      var segments = l.pathname.split("/");
+      var pathAfterRepo = segments.slice(1 + pathSegmentsToKeep).join("/");
+
       l.replace(
         l.protocol +
           "//" +
           l.hostname +
           (l.port ? ":" + l.port : "") +
-          l.pathname
-            .split("/")
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join("/") +
+          segments.slice(0, 1 + pathSegmentsToKeep).join("/") +
           "/?/" +
-          l.pathname
-            .slice(1 + pathSegmentsToKeep)
-            .split("/")
-            .join("/")
-            .replace(/&/g, "~and~") +
+          pathAfterRepo.replace(/&/g, "~and~") +
           (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
           l.hash,
       );

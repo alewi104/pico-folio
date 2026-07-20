@@ -185,5 +185,41 @@
                 "display_order":0
             }
         ]
+    },
+    {
+        "proj_id":5,
+        "slug":"http-parser",
+        "title":"Atmega328p Microcontroller HTTP Parser",
+        "thumbnail_alt":"Atmega328p microcontroller",
+        "description":"An IIOT temperature device protcol that utilizes http to send data to a master controlling unit. Maintains a log of all failures experienced by the IIOT device and manages limited onboard memory.",
+        "thumbnail":"\\images\\ATMEGA328P-PU.jpg",
+        "github_link":"https:\/\/github.com\/alewi104\/network-enabled-firmware",
+        "demo_video":"https:\/\/youtu.be\/sew-Gzpn7f8?si=Er4iNfVCwS8gyvmV",
+        "problem":"",
+        "solution":"",
+        "lessons_learned":"",
+        "architecture":"",
+        "ready_for_publish":1,
+        "featured":1,
+        "technologies":[
+            "C"
+        ],
+        "images":[
+            {
+                "img_id":12,
+                "filepath":"\\images\\Statemachine Diagram1.png",
+                "caption":"HTTP Parser Finite State Machine Diagram",
+                "display_order":0
+            }
+        ],
+        "documents":[
+            {
+                "doc_id":4,
+                "title":"HTTP Parser FSM Deep Dive",
+                "filepath":"\\documents\\FSM diagram.pdf",
+                "summary":"A brief explanation of the flow for the FSM",
+                "display_order":0
+            }
+        ]
     }
 ]

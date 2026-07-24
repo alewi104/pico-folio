@@ -221,5 +221,39 @@
                 "display_order":0
             }
         ]
+    },
+    {
+        "proj_id":6,
+        "slug":"test-agent",
+        "title":"QA Playwright AI Agent",
+        "thumbnail_alt":"AI chip board",
+        "description":"An agentic assistant that reads a web application project's directory and provides a vetted Playwight test suite. After the tests are generated, the agent runs them to verify their status.",
+        "thumbnail":"\\images\\ai.jpg",
+        "github_link":"https:\/\/github.com\/alewi104\/test_agent",
+        "demo_video":"",
+        "problem":"",
+        "solution":"",
+        "lessons_learned":"",
+        "architecture":"Agentic",
+        "ready_for_publish":1,
+        "featured":1,
+        "technologies":[
+            "LangChain",
+            "Pydantic",
+            "OpenAI",
+            "Playwright",
+            "Python"
+        ],
+        "images":[
+            {
+                "img_id":13,
+                "filepath":"\\images\\test_agent_pytest_output.png",
+                "caption":"The successful return of the agent's tests in each browser",
+                "display_order":0
+            }
+        ],
+        "documents":[
+
+        ]
     }
 ]

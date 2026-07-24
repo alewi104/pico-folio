@@ -94,7 +94,7 @@
         "lessons_learned":"",
         "architecture":"",
         "ready_for_publish":1,
-        "featured":1,
+        "featured":0,
         "technologies":[
             "Java",
             "SQL"

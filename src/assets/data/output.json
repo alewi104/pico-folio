@@ -255,5 +255,69 @@
         "documents":[
 
         ]
+    },
+    {
+        "proj_id":7,
+        "slug":"paws-N-play",
+        "title":"Paws 'N Play",
+        "thumbnail_alt":"A dog paw print",
+        "description":"A CLI pet service application for managing grooming appointments, client information, and employee scheduling.",
+        "thumbnail":"\\images\\paw.jpg",
+        "github_link":"https:\/\/github.com\/alewi104\/pawsNplay",
+        "demo_video":"https:\/\/youtu.be\/i7FTddJchzc",
+        "problem":"",
+        "solution":"",
+        "lessons_learned":"",
+        "architecture":"",
+        "ready_for_publish":1,
+        "featured":0,
+        "technologies":[
+            "Java",
+            "SQL",
+            "JDBC"
+        ],
+        "images":[
+            {
+                "img_id":14,
+                "filepath":"\\images\\RelationalSchemaPawsnPlay.drawio (1).drawio.png",
+                "caption":"System ER diagram",
+                "display_order":0
+            },
+            {
+                "img_id":15,
+                "filepath":"\\images\\Screenshot 2026-07-25 101835.png",
+                "caption":"Creation Menu",
+                "display_order":1
+            },
+            {
+                "img_id":16,
+                "filepath":"\\images\\Screenshot 2026-07-25 101906.png",
+                "caption":"Deletion Menu",
+                "display_order":2
+            }
+        ],
+        "documents":[
+            {
+                "doc_id":5,
+                "title":"System Analysis",
+                "filepath":"\\documents\\System Analysis and Modeling .pdf",
+                "summary":"An analysis on the requirements of the system and how those functionalities lend to the structuring of the database.",
+                "display_order":0
+            },
+            {
+                "doc_id":6,
+                "title":"ER Diagram",
+                "filepath":"\\documents\\ER Diagram.pdf",
+                "summary":"",
+                "display_order":1
+            },
+            {
+                "doc_id":7,
+                "title":"ER Model",
+                "filepath":"\\documents\\ER Model.pdf",
+                "summary":"A visual representation of all the Entities and their attributes.",
+                "display_order":2
+            }
+        ]
     }
 ]

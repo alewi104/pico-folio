@@ -230,7 +230,7 @@
         "description":"An agentic assistant that reads a web application project's directory and provides a vetted Playwight test suite. After the tests are generated, the agent runs them to verify their status.",
         "thumbnail":"\\images\\ai.jpg",
         "github_link":"https:\/\/github.com\/alewi104\/test_agent",
-        "demo_video":"",
+        "demo_video":"https:\/\/youtu.be\/w0Y3g45bWMQ",
         "problem":"",
         "solution":"",
         "lessons_learned":"",
@@ -250,6 +250,12 @@
                 "filepath":"\\images\\test_agent_pytest_output.png",
                 "caption":"The successful return of the agent's tests in each browser",
                 "display_order":0
+            },
+            {
+                "img_id":17,
+                "filepath":"\\images\\Screenshot 2026-07-31 125957.png",
+                "caption":"Agent using the given tools and letting the user know when they are done with their task.",
+                "display_order":1
             }
         ],
         "documents":[
